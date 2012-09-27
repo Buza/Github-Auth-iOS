@@ -28,6 +28,7 @@
         [self performSelector:@selector(checkGitAuth) withObject:nil afterDelay:2];   
     }
     
+    self.view.backgroundColor = [UIColor blackColor];
     [super viewDidLoad];
 }
 
